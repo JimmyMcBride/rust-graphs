@@ -42,7 +42,6 @@ where
     }
   }
   /// Takes in a starting node and travels to the destination node by traversing breath-first through the graph...
-  #[allow(unused_variables)]
   pub fn breath_first_search(&self, starting_vertex: T, destination_vertex: T) -> Vec<T> {
     let mut queue = Vec::new();
     queue.push(vec![starting_vertex]);
